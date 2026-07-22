@@ -5,7 +5,7 @@ const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 
 const port = process.env.PORT || 5000;
 
-// Middleware connection
+// Middleware connection syetem
 const corsOptions = {
     origin: ["http://localhost:5173", "https://ctg-market-sharing-web-client.web.app"],
     credentials: true,
